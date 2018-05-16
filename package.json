@@ -1,0 +1,30 @@
+{
+  "name": "n",
+  "version": "0.1.0",
+  "description": "N",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomDobbelaere/N.git"
+  },
+  "keywords": [
+    "N"
+  ],
+  "author": "Tom Dobbelaere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomDobbelaere/N/issues"
+  },
+  "homepage": "https://github.com/TomDobbelaere/N#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "dotenv": "^5.0.1",
+    "erlpack": "github:discordapp/erlpack",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6"
+  }
+}
