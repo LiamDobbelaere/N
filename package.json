@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,10 @@
     "discord.js": "^11.3.2",
     "dotenv": "^5.0.1",
     "erlpack": "github:discordapp/erlpack",
+    "mysql2": "^1.5.3",
+    "node-crypt": "^1.1.0",
     "node-opus": "^0.2.7",
-    "opusscript": "0.0.6"
+    "opusscript": "0.0.6",
+    "sequelize": "^4.37.7"
   }
 }
