@@ -4,7 +4,8 @@
   "description": "N",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/TomDobbelaere/N#readme",
   "dependencies": {
+    "brain.js": "^1.2.1",
     "bufferutil": "^3.0.3",
     "discord.js": "^11.3.2",
     "dotenv": "^5.0.1",
