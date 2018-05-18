@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASS, {
-  host: '192.168.1.200',
+  host: process.env.DB_HOST,
   dialect: 'mysql',
   pool: {
     max: 5,
